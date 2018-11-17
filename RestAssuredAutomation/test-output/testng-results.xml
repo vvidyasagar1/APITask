@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3872" started-at="2018-11-17T14:31:05Z" finished-at="2018-11-17T14:31:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3872" started-at="2018-11-17T14:31:05Z" finished-at="2018-11-17T14:31:09Z">
+      <class name="com.service.TestRestServices">
+        <test-method status="PASS" signature="test_GetRandomUser_Email()[pri:0, instance:com.service.TestRestServices@17af971]" name="test_GetRandomUser_Email" duration-ms="3120" started-at="2018-11-17T14:31:05Z" finished-at="2018-11-17T14:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GetRandomUser_Email -->
+        <test-method status="PASS" signature="test_Validate_Get_PostUserIds()[pri:0, instance:com.service.TestRestServices@17af971]" name="test_Validate_Get_PostUserIds" duration-ms="170" started-at="2018-11-17T14:31:08Z" depends-on-methods="com.service.TestRestServices.test_GetRandomUser_Email" finished-at="2018-11-17T14:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Validate_Get_PostUserIds -->
+        <test-method status="PASS" signature="test_Validate_Post_NonEmpty_Body()[pri:0, instance:com.service.TestRestServices@17af971]" name="test_Validate_Post_NonEmpty_Body" duration-ms="560" started-at="2018-11-17T14:31:08Z" depends-on-methods="com.service.TestRestServices.test_Validate_Get_PostUserIds" finished-at="2018-11-17T14:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Validate_Post_NonEmpty_Body -->
+      </class> <!-- com.service.TestRestServices -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
